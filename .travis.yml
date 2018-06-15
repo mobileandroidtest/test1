@@ -1,4 +1,6 @@
 language: android
+sudo: false
+dist: trusty
 
 before_install:
   - yes | sdkmanager "platforms;android-27"
